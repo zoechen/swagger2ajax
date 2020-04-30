@@ -1,0 +1,24 @@
+{
+  "name": "swagger2axiosjs",
+  "version": "1.0.0",
+  "description": "api.js docs generator",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.ifarmercloud.com:zoe/swagger2axiosjs.git"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "author": "zoechen",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.15",
+    "path": "^0.12.7"
+  }
+}
